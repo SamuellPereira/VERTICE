@@ -1,0 +1,22 @@
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# .NET
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+
+# Configurações locais e segredos
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+
+# Sistema
+.DS_Store
+Thumbs.db
